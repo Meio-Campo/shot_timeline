@@ -3,6 +3,8 @@ This Shiny application is designed to visualize shot timelines and calculate pro
 It allows users to n visualize shot timelines along with probabilities of different match outcomes just by pasting a URL for a FBRef Match Report.
 
 # How to Use
+To run the application, execute the code provided in an R environment where the necessary packages are installed. Ex: RStudio
+
 Welcome Message: Upon launching the app, you will be greeted with a welcome message. It provides instructions on how to use the app, including selecting colors for squads and pasting the FBRef URL.
 
 Select Squad Colors: Choose colors for Squad 1 and Squad 2 from the dropdown menus provided. # this is only intended for customizing your viz. It will eventually be updated to fetch the colors dynamically. 
@@ -43,6 +45,7 @@ library(scales)
 
 #Run the application
 shinyApp(ui = ui, server = server)
+
 Ensure that you have an active internet connection while using the app to fetch data from FBRef.
 
 # Author
