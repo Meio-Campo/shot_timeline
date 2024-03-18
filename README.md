@@ -59,4 +59,4 @@ Ensure that you have an active internet connection while using the app to fetch 
 This app was created by [O Meio Campo].
 
 # License
-This project is licensed under the .
+This project is licensed under the GNU GENERAL PUBLIC LICENSE.
