@@ -5,6 +5,9 @@ It allows users to n visualize shot timelines along with probabilities of differ
 # How to Use
 To run the application, execute the code provided in an R environment where the necessary packages are installed. Ex: RStudio
 
+![rstudio_2024-03-18_16-05-08](https://github.com/Meio-Campo/shot_timeline/assets/163524745/5c9489e8-0c8c-4129-a55a-2fa8c6e6314a)
+
+
 Welcome Message: Upon launching the app, you will be greeted with a welcome message. It provides instructions on how to use the app, including selecting colors for squads and pasting the FBRef URL.
 
 Select Squad Colors: Choose colors for Squad 1 and Squad 2 from the dropdown menus provided. # this is only intended for customizing your viz. It will eventually be updated to fetch the colors dynamically. 
@@ -18,9 +21,13 @@ Squares: Squares, conversely, represent shots that resulted in goals. These are 
 
 Calculate Probabilities: After submitting the URL, click the "Calculate Probabilities" button to calculate probabilities and visualize outcomes. It takes a while to compute the probabilities, bu will eventually work. 
 
+![brave_2024-03-18_12-46-16](https://github.com/Meio-Campo/shot_timeline/assets/163524745/65f38904-c4aa-4de2-8770-66c83991839a)
+
 Shot Timeline Tab: This tab displays the shot timeline plot, cumulative xG plot, data table, and team information.
 
 Probabilities Tab: In this tab, you can view the heatmap representing the probability distribution of match outcomes and histograms showing the probability distribution of each squad's goals.
+
+![brave_2024-03-18_12-46-40](https://github.com/Meio-Campo/shot_timeline/assets/163524745/5eec1e29-a983-4306-98f2-247568c07ab6)
 
 Dependencies
 This app utilizes the following R packages:
